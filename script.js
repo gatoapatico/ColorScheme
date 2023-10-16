@@ -20,3 +20,9 @@ formEl.addEventListener('submit', function(e){
             });
         });
 });
+
+document.addEventListener('click', function(e){
+    if(e.target.dataset.copy){
+        navigator.clipboard.writeText(e.target.textContent);
+    }
+});

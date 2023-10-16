@@ -49,6 +49,7 @@ body {
 
             & .color {
                 flex: 1;
+                cursor: pointer;
             }
 
             & .color1 { background-color: #F55A5A; }
@@ -67,6 +68,7 @@ body {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                cursor: pointer;
             }
         }
     }
